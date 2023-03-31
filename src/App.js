@@ -141,7 +141,7 @@ const removeMajors =(event)=>{
       </label>
       <label>
          columns:
-        <input type="number" value={cols} onChange={handleColsChange} />
+        <input className='input' type="number" value={cols} onChange={handleColsChange} />
       </label>
       {inputFields}
       <button type="submit" onClick={checkStudent}>Submit</button>
